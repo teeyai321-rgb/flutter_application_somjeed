@@ -26,8 +26,12 @@ class _OtpUiState extends State<OtpUi> {
   @override
   void dispose() {
     timer?.cancel();
-    for (final c in controllers) c.dispose();
-    for (final n in focusNodes) n.dispose();
+    for (final c in controllers) {
+      c.dispose();
+    }
+    for (final n in focusNodes) {
+      n.dispose();
+    }
     super.dispose();
   }
 

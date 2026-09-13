@@ -3,7 +3,7 @@ import 'E03PageUI.dart';
 import 'E05PageUI.dart';
 
 class ForgotUi extends StatelessWidget {
-  ForgotUi({super.key});
+  const ForgotUi({super.key});
 
   @override
   Widget build(BuildContext context) {

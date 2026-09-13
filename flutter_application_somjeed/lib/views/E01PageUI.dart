@@ -4,7 +4,7 @@ import 'E02PageUI.dart';
 const orange = Color(0xFFFF9810);
 
 class E01PageUI extends StatelessWidget {
-  E01PageUI({super.key});
+  const E01PageUI({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class E01PageUI extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(.16),
+                            color: Colors.black.withValues(alpha: .16),
                             blurRadius: 12,
                             spreadRadius: 1,
                           ),
